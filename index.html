@@ -7,7 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./002_index/src/styles/indexStyle.css">
 </head>
-<body>
-    
+<body class="backgroundIndex h-screen w-screen">
+    <section class="carouselWrapper flex flex-row w-full h-full justify-evenly items-center">
+        <button class="prevImageCarousel px-3 pb-1">&lt;</button>
+        <figure class="carouselImage">
+            <a href="./001_project/001_photographer/index.html"><img src="./002_index/res/carousel/image1.png" alt="image of the photographer brief"/></a>
+        </figure>
+        <button class="nextImageCarousel px-3 pb-1">&gt;</button>
+    </section>
+    <script src="./002_index/src/indexScript.js"></script>
 </body>
 </html>
