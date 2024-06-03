@@ -1,0 +1,22 @@
+@mixin top-page-banners($imagelink){
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url($imagelink);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.banner-prices{
+    @include top-page-banners("./res/0040_prices/headpic.jpg");
+}
+.banner-gallery{
+    @include top-page-banners("./res/0030_galerie/baby-1.1.jpg");
+}
+.banner-blog{
+    @include top-page-banners("./res/0050_blog/29770219-adobestock-362483648.jpeg")
+}
+.banner-about{
+    @include top-page-banners("./res/0060_about/sarah-croche.jpg")
+}
+.banner-contact{
+    @include top-page-banners("./res/0060_about/sarah-croche-mask.jpg")
+}

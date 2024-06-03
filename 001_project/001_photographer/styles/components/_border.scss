@@ -1,0 +1,14 @@
+.border-prices-card{
+    box-shadow: 0px 0px 10px 0px rgba(#444, 0.8);
+    article{
+        border-top: solid black 2px;
+        border-bottom: solid black 2px;
+    }
+    button{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0.7rem;
+        border: solid black 1px;
+        border-radius: 1rem;
+    }
+}
