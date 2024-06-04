@@ -1,12 +1,16 @@
 const carousel = document.querySelector('.carouselImage');
 const prevButton = document.querySelector('.prevImageCarousel');
 const nextButton = document.querySelector('.nextImageCarousel');
-const images = document.querySelectorAll('.carousel a');
+const images = document.querySelectorAll('.carouselImage a');
+
 let index = 0;
 
+
 function showImage(index) {
-    const offset = -index * 100;
-    carousel.style.transform = `translateX(${offset}%)`;
+    images.forEach(item => {
+        item.classList.replace('carouselImageShowed','carouselImageHidden');
+    })
+    images[index].classList.replace('carouselImageHidden' , 'carouselImageShowed');
 }
 
 prevButton.addEventListener('click', function () {

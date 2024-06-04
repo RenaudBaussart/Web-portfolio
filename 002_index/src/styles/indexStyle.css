@@ -17,5 +17,21 @@
   margin-left: 1%;
   margin-right: 1%;
 }
+.carouselWrapper .carouselImageShowed {
+  display: block;
+  height: 50vh;
+  width: 60vw;
+  box-shadow: 0px 0px 15px #ac00ac, 8px 8px 10px black;
+  border: #800080 solid 4px;
+  border-radius: 10px;
+}
+.carouselWrapper .carouselImageShowed img {
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+.carouselWrapper .carouselImageHidden {
+  display: none;
+}
 
 /*# sourceMappingURL=indexStyle.css.map */
