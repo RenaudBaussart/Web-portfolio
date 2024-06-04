@@ -1,0 +1,104 @@
+//start of the index scss//
+.bg-color-dark{
+    background-color: rgb(0, 0, 0) !important;
+    li{
+      color: white;
+    }
+    button{
+      color: white;
+      background-color: rgb(217, 165, 32);
+      border: solid black 1px;
+    }
+    img{
+      background-color: lightgrey;
+    }
+    p{
+      color: lightgray;
+    }
+}
+
+header.bg-color-dark{
+    margin-top: 20%;
+
+}
+
+.bg-color-brown{
+  background-color: rgb(163, 111, 58);
+  button{
+    color: white;
+    background-color: rgb(217, 165, 32);
+    border: solid black 1px;
+  }
+}
+
+.padding-margin{
+        margin-top: 100px;
+        margin-bottom: 0%;
+        padding-bottom: 60px;
+        padding-top:60px;
+}
+
+section.cont-presentation-index{
+    display: grid;
+    grid-template-columns: 50px repeat(3,1fr) 50px;
+    grid-template-rows: 1fr;
+    gap: 0%;
+}
+article.cont-presentation-description-index{
+  display: grid;
+  grid-template-columns: 50px repeat(3,1fr) 50px;
+  grid-template-rows: repeat(3,1fr);
+  gap: 0%;
+}
+article.color-gold{
+  background-color: rgb(163, 111, 58);
+  padding-bottom: -30px;
+  border: solid goldenrod;
+  border-radius: 10%;
+  h3{
+    color:goldenrod;
+    font-size: larger;
+  }
+  p{
+    color:goldenrod;
+  }
+}
+//end of the index scss//
+//start of the shop scss//
+div.cont-main-shop{
+  display: grid;
+  grid-template-columns: 15% repeat(3,1fr) 15%;
+  grid-template-rows: 15% 1fr 1fr;
+  gap: 0%;
+  .button{
+    border: 0;
+    margin-right:-2px;
+    margin-bottom: -2px;
+  }
+  .card{
+    background-color: rgb(235, 234, 234);
+  }
+  .card-footer{
+    border-color: black;
+  }
+} 
+
+.is-banner-link {
+  height: 700px !important;
+  width: 100%;
+}
+
+.is-banner {
+  width: 100%;
+  object-fit: cover !important;
+  border-radius: 5% !important;
+}
+
+.button.is-wide {
+  width: 130px;
+}
+
+//contacts.css
+.form_contacts {
+  display: block;
+}
