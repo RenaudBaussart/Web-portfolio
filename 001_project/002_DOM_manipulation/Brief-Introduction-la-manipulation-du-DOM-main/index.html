@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue</title>
+    <!--link for the custom font-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+    </style>
+    <!--link tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--link to the css file-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="w-screen h-screen flex justify-center content-center backgroundIndex">
+            <button class="bg-black justify-self-center self-center startButton" id="startbutton" onclick="start()">START</button>
+            <a href="./src/carousel.html" class="indexPageSelector justify-self-center self-center"id="link1">Carousel</a>
+            <a href="./src/shopping-list.html" class="indexPageSelector justify-self-center self-center"id="link2">Shoping list</a>
+            <a href="./src/score-keeper.html" class="indexPageSelector justify-self-center self-center" id="link3">Scorekeeper</a>
+        </section>
+        <script src="./src/scripts/index.js"></script>
+    </main>    
+</body>
+</html>

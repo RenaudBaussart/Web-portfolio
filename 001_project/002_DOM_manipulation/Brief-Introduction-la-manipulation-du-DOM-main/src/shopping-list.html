@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-list</title>
+
+    <!--custom font import-->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');</style>   
+    <!--link tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--link to the css file-->
+    <link rel="stylesheet" href="../style.css">
+
+    <!--custom theme for tailwind-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paper: '#fffadd',
+                    },
+                    fontFamily: {
+                        sketch: 'Cabin Sketch',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+<body class="shoppingPage">
+    <header class="font-sketch bg-paper">
+        <section class="Navbar flex flex-row justify-evenly border-b border-black py-3">
+            <a href="./carousel.html" class="font-sketch text-3xl">Carousel</a>
+            <a href="./shopping-list.html" class="font-sketch text-3xl">Shoping list</a>
+            <a href="./score-keeper.html" class="font-sketch text-3xl">Score keeper</a>
+        </section>
+    </header>
+    <main>
+        <section class="flex flex-col">
+            <article>
+                <h1 class="font-sketch text-xl text-center py-1">Liste de course</h1>
+            </article>
+            <section class="flex justify-center py-1">
+                <input type="text" name="articleToAdd" class="inputShopping font-sketch text-xl mr-3 bg-paper" id="articleToAdd" onkeypress="">
+                <button class="shoppingButton font-sketch text-2xl" onclick="addItemList()">Ajouter</button>
+            </section>
+        </section>
+        <ul id="shoppingList">
+
+        </ul>
+
+        <!--link to the js file-->
+        <script src="./scripts/shopping.js"></script>
+    </main>
+</body>
+</html>

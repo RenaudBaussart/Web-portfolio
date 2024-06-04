@@ -1,0 +1,17 @@
+@import "./styles/base/_reset.scss";
+
+@import "./styles/utils/_variables.scss";
+@import "./styles/utils/_basic-mixin.scss";
+@import "./styles/utils/_fonction.scss";
+
+@import "./styles/components/_carousel.scss";
+@import "./styles/components/_scoreBoard.scss";
+
+@import "./styles/layout/_header.scss";
+@import "./styles/layout/_aside.scss";
+@import "./styles/layout/_main.scss";
+@import "./styles/layout/_footer.scss";
+
+@import "./styles/pages/_shopping.scss";
+@import "./styles/pages/_scoreBoard.scss";
+@import "./styles/pages/index.scss";

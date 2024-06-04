@@ -1,0 +1,16 @@
+
+.shoppingPage{
+    background-image: url(./res/Shopping/pagebackground.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    .inputShopping{
+        width: 150px;
+
+    }
+    ul{
+        padding-left: 6em;
+    }
+    .deletebutton{
+        color: #37d3d3;
+    }
+}

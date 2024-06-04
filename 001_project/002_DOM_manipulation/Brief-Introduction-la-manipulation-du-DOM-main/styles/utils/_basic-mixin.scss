@@ -1,0 +1,20 @@
+@mixin basic-buttons($color, $hoverBackgroundColor) {
+    border: none;
+    color: $color;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: $base-font-size;
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
+    color: white;
+    background-color: $hoverBackgroundColor;
+    }
+   }
+
+@mixin grid-item($gridcolum , $gridrow , $justify-item , $align-item){
+    justify-items: $justify-item;
+    align-items: $align-item;
+    grid-column: $gridcolum;
+    grid-row: $gridrow;
+}

@@ -1,0 +1,183 @@
+* {
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2, 5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1, 50em;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1, 30em;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1, 15em;
+  font-weight: bold;
+}
+
+input {
+  border: solid black 1px;
+}
+
+.backgroundGold {
+  background-image: url(./res/carousel/goldbackgroound.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.carousel {
+  height: 55%;
+  width: 55%;
+}
+.carousel .carouselImage1 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.CarouselButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 4em;
+  color: rgba(128, 128, 128, 0.616);
+  border-radius: 20%;
+}
+
+a.navlinkcarousel {
+  text-shadow: 0px 0px 3px #002f64, 0px 0px 8px #ffffff;
+}
+
+.CarouselButton {
+  text-shadow: 0px 0px 3px #002f64, 0px 0px 8px #ffffff;
+}
+
+section.scoreBoard .wrapperScoreP1 {
+  border: solid #fe0000 8px;
+  margin-top: 20px;
+  border-radius: 40px;
+  box-shadow: 15px 15px 5px rgba(255, 0, 0, 0.527);
+  margin-bottom: 20px;
+  background-image: radial-gradient(black 50%, rgba(255, 0, 0, 0.5607843137));
+}
+section.scoreBoard .wrapperScoreP2 {
+  border: solid #004bfa 8px;
+  margin-top: 20px;
+  border-radius: 40px;
+  box-shadow: 15px 15px 5px rgba(0, 75, 250, 0.5568627451);
+  margin-bottom: 20px;
+  background-image: radial-gradient(black 50%, rgba(104, 113, 133, 0.4784313725));
+}
+
+.wrapperScoreBottom button {
+  border: solid #00fa19 1px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px rgba(0, 250, 25, 0.5058823529);
+  margin-bottom: 20px;
+  background-image: radial-gradient(black 40%, rgba(0, 250, 25, 0.337254902));
+}
+.wrapperScoreBottom input {
+  border: solid #00fa19 1px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px rgba(0, 250, 25, 0.5058823529);
+  margin-bottom: 20px;
+  background-image: radial-gradient(black 40%, rgba(0, 250, 25, 0.337254902));
+}
+
+.shoppingPage {
+  background-image: url(./res/Shopping/pagebackground.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+.shoppingPage .inputShopping {
+  width: 150px;
+}
+.shoppingPage ul {
+  padding-left: 6em;
+}
+.shoppingPage .deletebutton {
+  color: #37d3d3;
+}
+
+.scoreKeeperPage * {
+  font-family: tiltNeon;
+  font-size: 1.15em;
+}
+
+.overlayScoreKeeper {
+  background-image: url(./res/scoreKeeper/old-filter.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.backgroundIndex {
+  background-image: url(./res/indexbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 150%;
+}
+
+.startButton {
+  background-color: black;
+  height: 10%;
+  width: 20%;
+  color: #800080;
+  border: #800080 solid 4px;
+  border-radius: 10px;
+  font-size: 60px;
+  box-shadow: 0px 0px 15px #ac00ac, 8px 8px 10px black;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.indexPageSelector {
+  background-color: black;
+  height: 10%;
+  width: 22%;
+  color: #800080;
+  border: #800080 solid 4px;
+  border-radius: 10px;
+  font-size: 60px;
+  box-shadow: 0px 0px 15px #ac00ac, 8px 8px 10px black;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: none;
+  margin: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

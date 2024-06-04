@@ -1,0 +1,40 @@
+section.scoreBoard{
+    .wrapperScoreP1{
+        border: solid #fe0000 8px;
+        margin-top: 20px;
+        border-radius: 40px;
+        box-shadow: 15px 15px 5px rgba(255, 0, 0, 0.527);;
+        margin-bottom: 20px;
+        background-image: radial-gradient(black 50%,#ff00008f);
+    }
+    .wrapperScoreP2{
+        border: solid #004bfa 8px;
+        margin-top: 20px;
+        border-radius: 40px;
+        box-shadow: 15px 15px 5px #004bfa8e;
+        margin-bottom: 20px;
+        background-image: radial-gradient(black 50%,#6871857a);
+    }
+}
+.wrapperScoreBottom{
+    button{
+        border: solid #00fa19 1px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 5px #00fa1981;
+        margin-bottom: 20px;
+        background-image: radial-gradient(black 40%,#00fa1956);
+    }
+    input{
+        border: solid #00fa19 1px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 5px #00fa1981;
+        margin-bottom: 20px;
+        background-image: radial-gradient(black 40%,#00fa1956);
+    }
+    
+
+}

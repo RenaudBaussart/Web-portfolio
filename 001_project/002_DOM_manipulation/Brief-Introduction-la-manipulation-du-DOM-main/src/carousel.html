@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <!--link for the custom font-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jacquard+12&display=swap');
+    </style>
+
+    <!--link tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--custom theme for tailwind-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#d4af37',
+                        darkgold:'#c09f31',
+                        thunderblue: '#005fc8',
+                        thunderbightblue:'#0075f7',
+                        scroll:'#fefff6',
+                    },
+                    fontFamily: {
+                        jac: 'Jacquard 12',
+                    }
+                }
+            }
+        }
+    </script>
+    <!--link to the css file-->
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body class="backgroundGold">
+    <header class="mb-6">
+        <section class="Navbar flex flex-row justify-evenly border-b border-thunderbightblue py-3">
+            <a href="./carousel.html" class="text-thunderbightblue text-4xl navlinkcarousel">Carousel</a>
+            <a href="./shopping-list.html" class="text-thunderbightblue text-4xl navlinkcarousel">Shoping list</a>
+            <a href="./score-keeper.html" class="text-thunderbightblue text-4xl navlinkcarousel">Score keeper</a>
+        </section>
+    </header>
+    <main class="flex flex-row justify-evenly mx-20 mt-20">
+        <button class="CarouselButton text-thunderbightblue text-9xl" onclick="changeImage('left')"><</button>
+        <figure class="carousel flex justify-evenly"><img id="screenCarousel" class="carouselImage1" src="../res/carousel/Carousel-1.png" alt="Image in the carousel"></figure>
+        <button class="CarouselButton text-thunderbightblue text-9xl" onclick="changeImage('right')">></button>
+
+        <!--link to the js file-->
+        <script src="./scripts/carousel.js"></script>
+        </main>
+</body>
+</html>

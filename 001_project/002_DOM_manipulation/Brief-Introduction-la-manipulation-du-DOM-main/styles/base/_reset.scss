@@ -1,0 +1,47 @@
+//start of the reset
+$base-font-size: 16px;
+$base-color: black;
+$base-font: Arial, Helvetica, sans-serif;
+* {
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    font-size: $base-font-size;
+    font-family: $base-font;
+    color: $base-color;
+	}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2,5em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1,50em;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1,30em;
+    font-weight: bold;
+}
+
+h6{
+    font-size: 1,15em;
+    font-weight: bold;
+}
+input{
+    border: solid black 1px;
+}
+//end of the reset

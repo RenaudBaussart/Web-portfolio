@@ -1,0 +1,27 @@
+.backgroundGold{
+    background-image: url(./res/carousel/goldbackgroound.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.carousel{
+    height: 55%;
+    width: 55%;
+    .carouselImage1{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+.CarouselButton{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 4em;
+    color: rgba(128, 128, 128, 0.616);
+    border-radius: 20%;
+}
+
+a.navlinkcarousel{
+       text-shadow:0px 0px 3px#002f64,0px 0px 8px#ffffff;
+}
+.CarouselButton{
+    text-shadow:0px 0px 3px#002f64,0px 0px 8px#ffffff;
+}

@@ -1,0 +1,44 @@
+$text-color:#800080;
+$text-color-light:#ac00ac;
+.backgroundIndex{
+    background-image: url(./res/indexbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-position: 70% 50%;
+    background-size:100% 150%;
+}
+.startButton{
+    background-color: black;
+    height: 10%;
+    width: 20%;
+    color: $text-color;
+    border: $text-color solid 4px;
+    border-radius: 10px;
+    font-size: 60px;
+    box-shadow: 0px 0px 15px $text-color-light,8px 8px 10px black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.indexPageSelector{
+    background-color: black;
+    height: 10%;
+    width: 22%;
+    color: $text-color;
+    border: $text-color solid 4px;
+    border-radius: 10px;
+    font-size: 60px;
+    box-shadow: 0px 0px 15px $text-color-light,8px 8px 10px black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    margin: 5%;
+}
